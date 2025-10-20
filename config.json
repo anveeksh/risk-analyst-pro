@@ -1,0 +1,14 @@
+{
+  "app_name": "Risk Analyst Pro",
+  "owner_name": "Anveeksh Mahesh Rao",
+  "owner_email": "raoanveeksh@gmail.com",
+  "owner_website": "https://www.anveekshmrao.com",
+  "risk_matrix_levels": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "min_similarity_threshold": 0.65
+}
