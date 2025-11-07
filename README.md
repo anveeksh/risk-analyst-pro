@@ -1,4 +1,4 @@
-# 🛡️ Risk Analyst Pro  
+#  Risk Analyst Pro  
 ### A Professional Cyber Risk Management and Analysis Tool
 
 **Developer:** [Anveeksh Mahesh Rao](https://www.anveekshmrao.com)  
@@ -7,7 +7,7 @@
 
 ---
 
-## 📘 Overview
+##  Overview
 
 **Risk Analyst Pro** is a browser-based cyber risk management application built with **Python + Streamlit**.  
 It provides an interactive environment for risk analysts, cybersecurity consultants, and students to:
@@ -21,7 +21,7 @@ It provides an interactive environment for risk analysts, cybersecurity consulta
 
 ---
 
-## ⚙️ Key Features
+##  Key Features
 
 | Feature | Description |
 |----------|-------------|
@@ -37,7 +37,7 @@ It provides an interactive environment for risk analysts, cybersecurity consulta
 
 ---
 
-## 🧩 Architecture
+##  Architecture
 ```bash
 risk-analyst-pro/
 │
@@ -46,28 +46,28 @@ risk-analyst-pro/
 ├── risk_db.sqlite          # Auto-created SQLite DB
 ├── config.json             # App configuration
 ├── pages/
-│   ├── 0_👤_About_the_Creator.py
-│   ├── 1_⚙️_Risk_Calculator.py
-│   ├── 2_📚_Risk_Register.py
-│   ├── 3_🧱_Assets_&_Threats.py
-│   ├── 4_🛡️_Controls_Library.py
-│   ├── 5_📦_Vendor_Risk.py
-│   ├── 6_📄_Reports.py
-│   ├── 7_🧪_Monte_Carlo.py
-│   ├── 8_🚨_Incident_Log.py
-│   └── 9_🔧_Settings.py
+│   ├── 0 About_the_Creator.py
+│   ├── 1 Risk_Calculator.py
+│   ├── 2 Risk_Register.py
+│   ├── 3 Assets_&_Threats.py
+│   ├── 4 Controls_Library.py
+│   ├── 5 Vendor_Risk.py
+│   ├── 6 Reports.py
+│   ├── 7 Monte_Carlo.py
+│   ├── 8 Incident_Log.py
+│   └── 9 Settings.py
 └── requirements.txt
 ```
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone or Download the Repository
+###  Clone or Download the Repository
 ```bash
 git clone https://github.com/yourusername/risk-analyst-pro.git
 cd risk-analyst-pro
 ```
-### 2️⃣ Create and Activate Virtual Environment
+###  Create and Activate Virtual Environment
 ```bash
 python -m venv .venv
 # On Windows
@@ -75,23 +75,23 @@ python -m venv .venv
 # On macOS/Linux
 source .venv/bin/activate
 ```
-### 3️⃣ Install Dependencies
+###  Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-### 4️⃣ Launch the App
+###  Launch the App
 ```bash
 streamlit run Home.py
 ```
-### 5️⃣ Access the Tool
+###  Access the Tool
 ```bash
-Open your browser and go to 👉 http://localhost:8501
+Open your browser and go to  http://localhost:8501
 ```
 ----
-## 🧠 How to Use (Step-by-Step with Example)
+## How to Use (Step-by-Step with Example)
 
 ### Step 1 — Add Assets
-1.	Open 🧱  **Assets & Threats** 
+1.	Open   **Assets & Threats** 
 2.	Under Assets, click “Add Asset”
    
    •	Name: Customer Database
@@ -104,10 +104,10 @@ Open your browser and go to 👉 http://localhost:8501
 
 	•	Notes: “Stores all customer PII data.”
 
-4.	✅ Asset added to database.
+4.	 Asset added to database.
 
 ## Step 2 — Add Threats
-1.	Still in 🧱 **Assets & Threats → Threats**
+1.	Still in  **Assets & Threats → Threats**
 2.	Click “Add Threat”
    
 	•	Threat Name: Ransomware
@@ -116,10 +116,10 @@ Open your browser and go to 👉 http://localhost:8501
 
 	•	Description: “Encrypts system files and demands ransom.”
 
-4.	✅ Threat recorded.
+4.	 Threat recorded.
 
 ## Step 3 — Calculate Risk
-1.	Go to ⚙️ Risk Calculator
+1.	Go to  Risk Calculator
 2.	Choose:
    
 	•	Asset: Customer Database
@@ -140,7 +140,7 @@ Open your browser and go to 👉 http://localhost:8501
 7.	Click Add to Risk Register
 
 ## Step 4 — Manage the Register
-1.	Open 📚 **Risk Register**
+1.	Open  **Risk Register**
 2.	View all saved risks.
 3.	Update fields:
    
@@ -153,7 +153,7 @@ Open your browser and go to 👉 http://localhost:8501
 5.	Click Save Changes
 
 ## Step 5 — Add Controls
-1.	Open 🛡️ Controls Library
+1.	Open  Controls Library
 2.	Add:
    
 	•	Framework: ISO 27001 Annex A
@@ -168,7 +168,7 @@ Open your browser and go to 👉 http://localhost:8501
 Add cloud or SaaS providers and assess their risk level (criticality 1-5).
 
 ## Step 7 — Run Monte Carlo Simulation
-1.	Go to 🧪 **Monte Carlo**
+1.	Go to  **Monte Carlo**
 2.	Example:
    
 	•	Simulations: 10,000
@@ -186,7 +186,7 @@ Add cloud or SaaS providers and assess their risk level (criticality 1-5).
 	•	Histogram distribution
 
 ## Step 8 — Export Reports
-1. Go to 📄 **Reports**
+1. Go to  **Reports**
 2. Download CSVs of:
    
 	•	Risk Register
@@ -199,7 +199,7 @@ Add cloud or SaaS providers and assess their risk level (criticality 1-5).
 
 ## Step 9 — Record Incidents
 
-1. Document any real events in **🚨 Incident Log with**:
+1. Document any real events in ** Incident Log with**:
 
 	•	Title
    
@@ -211,13 +211,13 @@ Add cloud or SaaS providers and assess their risk level (criticality 1-5).
 
 ## Step 10 — Customize Footer & Branding
 
-•	Go to **🔧 Settings**
+•	Go to ** Settings**
 
 •	Edit app name, your contact info, or matrix levels
 
 •	Changes saved in config.json
 
-## 🧮 Example Risk Output
+##  Example Risk Output
 
 | **Asset**            | **Threat**      | **Likelihood (T)** | **Vulnerability (V)** | **Consequence (C)** | **Risk Score (T×V×C)** | **Status**   | **Mitigation / Notes**                           |
 |----------------------|----------------|--------------------|-----------------------|---------------------|------------------------|--------------|--------------------------------------------------|
@@ -233,7 +233,7 @@ Add cloud or SaaS providers and assess their risk level (criticality 1-5).
 > - 40–60 = *High risk*
 > - Above 60 = *Critical risk*
 
-## 🧱 Database
+##  Database
 
 •	SQLite database auto-creates on first run (risk_db.sqlite)
 	
@@ -251,9 +251,9 @@ Add cloud or SaaS providers and assess their risk level (criticality 1-5).
 
 •	Matplotlib
 
-## 🧑‍💻 Author & Credits
+##  Author & Credits
 **Developed by:**
-**👨‍💻 Anveeksh Mahesh Rao**
+** Anveeksh Mahesh Rao**
 **Cybersecurity Engineer | Founder of Cyber Tech Associates | Researcher | Educator**
 ### Who is Anveeksh Mahesh Rao
 Anveeksh Mahesh Rao is a passionate Cybersecurity Professional, Cyber Crime Investigator, and Entrepreneur with expertise spanning digital forensics, vulnerability assessment, penetration testing, and cybersecurity education.
@@ -266,11 +266,11 @@ He has served as Guest Faculty and Keynote Speaker at numerous universities and 
 
 Beyond technology, Anveeksh is also a motivational speaker and mentor, using his platform to share stories of career growth, entrepreneurship, and digital safety awareness.
 
-📍 LinkedIn: www.linkedin.com/in/anveekshmrao
+ LinkedIn: www.linkedin.com/in/anveekshmrao
 
-📧 Email: raoanveeksh@gmail.com
+ Email: raoanveeksh@gmail.com
 
-🌐 Website: www.anveekshmrao.com
+ Website: www.anveekshmrao.com
 
 ## 🏁 License
 This project is released under the MIT License — free for research, academic, and authorized commercial use.
@@ -281,14 +281,14 @@ Permission is granted to use, copy, modify, and distribute this software for law
 
 ---
 
-## ⭐ If You Like This Project
+##  If You Like This Project
 
 If you find **Risk Analyst Pro** helpful or inspiring:
 
-- 🍴 **Fork** the repository  
-- 🌟 **Star** it on GitHub  
-- 💬 **Share** it with cybersecurity and risk management communities  
-- 🧠 **Contribute** by improving features, fixing bugs, or adding new modules  
+-  **Fork** the repository  
+-  **Star** it on GitHub  
+-  **Share** it with cybersecurity and risk management communities  
+-  **Contribute** by improving features, fixing bugs, or adding new modules  
 
 > Every star and contribution motivates continuous innovation in open cybersecurity education!
 
