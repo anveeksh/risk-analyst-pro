@@ -239,7 +239,7 @@ Add cloud or SaaS providers and assess their risk level (criticality 1-5).
 	
 •	Tables: assets, threats, risks, controls, vendors, incidents
 
-## 📊 Technologies Used
+## Technologies Used
 
 •	Python 3.10+
 
